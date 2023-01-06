@@ -6,7 +6,7 @@ from sqlalchemy.orm import relationship
 from sqlalchemy.sql.expression import text
 from .database import Base
 
-#SQLALCHEMY model, references db model not the pydantic model
+
 class Post(Base):
     __tablename__ = "posts"
 
